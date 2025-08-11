@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ebe8e8;
+    width: 100%; 
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    height: 100vh;
+    text-transform: capitalize;
+}
+header{
+    width: 100%;
+    height: 100px; 
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image{
+    width: 200px; 
+    border-radius: 10%; 
+    margin: 10px;
+}   
+.profile-image img{
+    width: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.profile-image img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.profile-txt{
+    width: 100%;
+    margin: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-txt h2{
+    font-size: 5rem;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+.profile-txt h2:hover{
+    /* color: #4219f5;  */
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+.profile-txt p{
+    margin: 10px 0;
+    color: chocolate;
+    font-weight: bold;
+}
+.profile-links{
+    width: 40%;
+}
+.profile-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-links ul li{
+    margin: 0 1px;
+}
+.profile-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    transition: transform 0.3s ease
+}
