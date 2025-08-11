@@ -66,11 +66,13 @@ header{
 }
 .profile-links{
     width: 40%;
+    text-align: center;
+    motion: 0 auto;
 }
 .profile-links ul{
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
