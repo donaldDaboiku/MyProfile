@@ -88,3 +88,28 @@ header{
     border-radius: 5px; 
     transition: transform 0.3s ease
 }
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+    }
+    header{
+        height: 80px;
+    }
+    .profile-image{
+        width: 150px;
+    }
+    .profile-txt h2{
+        font-size: 3rem;
+    }
+    .profile-links ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex: 10px;
+    }
+    .profile-links ul li a{
+        margin: 5px 0;
+        padding: 8px 15px;
+    }
+}
